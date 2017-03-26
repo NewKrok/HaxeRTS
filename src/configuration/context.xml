@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<root name="haxeRTS">
+	
+    <include file="configuration/ImportParserConfiguration.xml" />
+    <include file="configuration/CoreTickConfiguration.xml" />
+	
+    <include file="configuration/ViewConfiguration.xml" />
+    <include file="configuration/ModuleConfiguration.xml" />
+    <include file="configuration/OrderConfiguration.xml" />
+    <include file="configuration/StateConfiguration.xml" />
+	
+</root>

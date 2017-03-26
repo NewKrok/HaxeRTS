@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+
+	<collection id="coreTickConfigList" type="Array<haxerts.game.module.coretick.vo.CoreTickConfigVO>">
+		<argument ref="touchDragCoreTickConfig" />
+	</collection>
+	
+	<parser id="touchDragCoreTickConfig" type="haxerts.game.module.coretick.vo.CoreTickConfigVO">
+		<argument ref="touchDragModule" />
+		<argument value="0" type="Float" />
+	</parser>
+	
+</root>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<!-- NMML reference: https://gist.github.com/1763850 -->
+	
+	<!-- metadata, make sure 'package' is at least 3 segments (ie. com.mycompany.myproject) -->
+	<meta title="HaxeRTS" package="HaxeRTS" version="1.0.0" company="Krisztian Somoracz" />
+	
+	<!-- output -->
+	<app main="Main" file="HaxeRTS" path="bin" />
+	
+	<window background="#000000" fps="60" />
+	<window width="640px" height="480px" unless="mobile" />
+	<window orientation="landscape" vsync="false" antialiasing="0" if="cpp" />
+	
+	<!-- classpath, haxe libs -->
+	<source path="src" />
+	<haxelib name="openfl" />
+    <haxelib name="hexcore" />
+    <haxelib name="hexreflection" />
+    <haxelib name="hexannotation" />
+    <haxelib name="hexinject" />
+    <haxelib name="hexdsl" />
+    <haxelib name="hexstate" />
+    <haxelib name="hexmvc" />
+    <haxelib name="hexservice" />
+    <haxelib name="hexioc" />
+    <haxelib name="hexunit" />
+    <haxelib name="openfl" />
+	
+	<!-- assets -->
+	<assets path="assets/img/terrain_textures.png" rename="img_terrain_textures" />
+	<assets path="assets/json/terrain_textures.json" rename="json_terrain_textures" />
+	<assets path="assets/json/level_datas.json" rename="json_level_datas" />
+	
+	<!-- optimize output
+	<haxeflag name="-dce full" /> -->
+	
+</project>

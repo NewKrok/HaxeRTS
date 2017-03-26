@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+
+	<!--<listen ref="bootStrapModule">
+		<event static-ref="haxerts.module.bootstrap.message.BootStrapModuleMessage.START_APPLICATION" strategy="haxerts.applicationcontext.controller.macro.BootStrapMacro" />
+	</listen>-->
+	
+</root>

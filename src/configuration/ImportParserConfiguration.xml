@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+
+	<collection id="importParserConfigList" type="Array<haxerts.game.module.importlevel.vo.ImportParserConfigVO>">
+		<argument ref="rectangleBackgroundParser" />
+	</collection>
+	
+	<parser id="rectangleBackgroundParser" type="haxerts.game.module.importlevel.vo.ImportParserConfigVO">
+		<argument value="rectangleBackgroundData" />
+		<argument ref="rectangleBackgroundVOArrayParser" />
+	</parser>
+	
+	<element id="rectangleBackgroundVOArrayParser" type="haxerts.game.module.importlevel.parser.RectangleBackgroundVOArrayParser" />
+	
+</root>

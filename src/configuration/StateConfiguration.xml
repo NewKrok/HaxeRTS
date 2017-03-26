@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	
+    <state id="bootStrap" ref="haxeRTS.state.ASSEMBLING_END">
+		<enter command-class="haxerts.applicationcontext.controller.bootstrap.controller.macro.BootStrapMacro" fire-once="true" />
+	</state>
+	
+</root>

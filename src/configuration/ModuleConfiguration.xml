@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	
+    <module id="coreTickModule" type="haxerts.game.module.coretick.CoreTickModule" map-type="haxerts.game.module.coretick.ICoreTickModule">
+		<argument ref="coreTickConfigList" />
+    </module>
+	
+	<module id="importLevelModule" type="haxerts.game.module.importlevel.ImportLevelModule" map-type="haxerts.game.module.importlevel.IImportLevelModule">
+        <argument ref="importParserConfigList"/>
+    </module>
+	
+    <module id="rectangleBackgroundModule" type="haxerts.game.module.background.rectanglebackground.RectangleBackgroundModule" map-type="haxerts.game.module.background.rectanglebackground.IRectangleBackgroundModule">
+        <argument ref="rectangleBackgroundModuleView"/>
+    </module>
+	
+    <module id="mapModule" type="haxerts.game.module.map.MapModule" map-type="haxerts.game.module.map.IMapModule">
+    </module>
+	
+	<module id="touchDragModule" type="haxerts.game.module.touchdrag.TouchDragModule" map-type="haxerts.game.module.touchdrag.ITouchDragModule">
+		<argument ref="touchDragModuleView" />
+    </module>
+	
+</root>

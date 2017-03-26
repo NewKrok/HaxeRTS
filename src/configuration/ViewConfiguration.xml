@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	
+	<view id="gameContainer" type="js.haxerts.game.GameContainer">
+    </view>
+	
+	<view id="rectangleBackgroundModuleView" type="js.haxerts.game.module.background.rectanglebackground.RectangleBackgroundModuleView">
+		<argument ref="gameContainer" />
+    </view>
+	
+    <view id="touchDragModuleView" type="js.haxerts.game.module.touchdrag.TouchDragModuleView">
+		<argument ref="gameContainer" />
+    </view>
+	
+</root>
