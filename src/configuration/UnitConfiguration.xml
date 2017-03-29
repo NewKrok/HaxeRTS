@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+
+	<collection id="unitConfigList" type="hex.collection.HashMap" map-type="hex.collection.HashMap<String, haxerts.game.module.unit.vo.UnitConfigVO>">
+		<item> <key value="warrior"/> <value ref="WarriorUnitConfig"/> </item>
+	</collection>
+	
+	<config id="WarriorUnitConfig" type="haxerts.game.module.unit.vo.UnitConfigVO">
+		<property name="name" value="Warrior" />
+		<property name="skeleton" value="Warrior" />
+		
+		<property name="sizeRadius" value="30" type="Float" />
+		<property name="unitHeight" value="100" type="Float" />
+		
+		<property name="attackRadius" value="90" type="Float" />
+		<property name="unitDetectionRadius" value="150" type="Float" />
+		
+		<property name="armor" value="0" type="Float" />
+		<property name="armorType" value="0" static-ref="haxerts.game.module.unit.constant.CArmorType.HEAVY" />
+		
+		<property name="blockChance" value="2" type="Float" />
+		
+		<property name="minDamage" value="5" type="Float" />
+		<property name="maxDamage" value="10" type="Float" />
+		
+		<property name="areaDamage" value="0" type="Float" />
+		<property name="areaDamageRadius" value="0" type="Float" />
+		
+		<property name="attackSpeed" value="1" type="Float" />
+		<property name="attackType" static-ref="haxerts.game.module.unit.constant.CAttackType.NORMAL" />
+		
+		<property name="criticalHitChance" value="0.01" type="Float" />
+		<property name="criticalHitDamageMultiple" value="1.5" type="Float" />
+		
+		<property name="attackActionDelay" value="0.7" type="Float" />
+		
+		<property name="maxLife" value="100" type="Float" />
+		<property name="lifeRegeneration" value="2" type="Float" />
+		
+		<property name="maxMana" value="15" type="Float" />
+		<property name="manaRegeneration" value="4" type="Float" />
+		
+		<property name="movementSpeed" value="100" type="Float" />
+	</config>
+	
+</root>

@@ -20,4 +20,8 @@
 		<argument ref="touchDragModuleView" />
     </module>
 	
+	<module id="unitManagerModule" type="haxerts.game.module.unitmanager.UnitManagerModule" map-type="haxerts.game.module.unitmanager.IUnitManagerModule">
+		<argument ref="unitManagerModuleView" />
+    </module>
+	
 </root>

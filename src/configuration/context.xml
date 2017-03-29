@@ -4,6 +4,7 @@
 	
     <include file="configuration/ImportParserConfiguration.xml" />
     <include file="configuration/CoreTickConfiguration.xml" />
+    <include file="configuration/UnitConfiguration.xml" />
 	
     <include file="configuration/ViewConfiguration.xml" />
     <include file="configuration/ModuleConfiguration.xml" />

@@ -1,4 +1,4 @@
-package haxerts.applicationcontext.controller.game.init;
+package haxerts.applicationcontext.controller.game.init.macro;
 
 import haxerts.game.module.importlevel.vo.LevelDataVO;
 import hex.control.macro.Macro;
@@ -14,5 +14,6 @@ class InitGameMacro extends Macro
 	{
 		add( ImportLevelCommand );
 		add( BuildBackgroundCommand );
+		add( CreateInitialUnitsCommand );
 	}
 }

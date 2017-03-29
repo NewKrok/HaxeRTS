@@ -31,6 +31,7 @@
 	<assets path="assets/img/terrain_textures.png" rename="img_terrain_textures" />
 	<assets path="assets/json/terrain_textures.json" rename="json_terrain_textures" />
 	<assets path="assets/json/level_datas.json" rename="json_level_datas" />
+	<assets path="assets/img/unit_atlas.png" rename="img_unit_atlas" />
 	
 	<!-- optimize output
 	<haxeflag name="-dce full" /> -->

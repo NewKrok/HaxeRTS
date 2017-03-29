@@ -4,10 +4,11 @@ import haxerts.game.module.background.rectanglebackground.controller.IRectangleB
 import haxerts.game.module.background.rectanglebackground.model.IRectangleBackgroundModelRO;
 import haxerts.game.module.background.rectanglebackground.view.IRectangleBackgroundModuleView;
 import haxerts.game.module.background.rectanglebackground.vo.RectangleBackgroundVO;
+import hex.di.IInjectorContainer;
 import openfl.display.BitmapData;
 import openfl.display.Sprite;
 
-class RectangleBackgroundModuleView extends Sprite implements IRectangleBackgroundModuleView
+class RectangleBackgroundModuleView extends Sprite implements IRectangleBackgroundModuleView implements IInjectorContainer
 {
 	@Inject
 	public var controller:IRectangleBackgroundController;

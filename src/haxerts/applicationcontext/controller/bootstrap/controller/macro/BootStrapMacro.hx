@@ -1,6 +1,6 @@
 package haxerts.applicationcontext.controller.bootstrap.controller.macro;
 
-import haxerts.applicationcontext.controller.game.init.InitGameMacro;
+import haxerts.applicationcontext.controller.game.init.macro.InitGameMacro;
 import hex.control.macro.Macro;
 
 /**
